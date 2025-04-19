@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "eslint.config.js",
+  "scripts": {
+    "db:push": "npx drizzle-kit push",
+    "auth:generate": "npx @better-auth/cli generate --output src/db/schema.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
